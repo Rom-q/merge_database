@@ -12,3 +12,4 @@ E:\da\music database\music_database\obj\Debug\net9.0\refint\music_database.dll
 E:\da\music database\music_database\obj\Debug\net9.0\music_database.pdb
 E:\da\music database\music_database\obj\Debug\net9.0\music_database.genruntimeconfig.cache
 E:\da\music database\music_database\obj\Debug\net9.0\ref\music_database.dll
+E:\da\music database\music_database\obj\Debug\net9.0\music_database.sourcelink.json
