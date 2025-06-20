@@ -1,0 +1,14 @@
+E:\da\music database\music_database\bin\Debug\net9.0\music_database.exe
+E:\da\music database\music_database\bin\Debug\net9.0\music_database.deps.json
+E:\da\music database\music_database\bin\Debug\net9.0\music_database.runtimeconfig.json
+E:\da\music database\music_database\bin\Debug\net9.0\music_database.dll
+E:\da\music database\music_database\bin\Debug\net9.0\music_database.pdb
+E:\da\music database\music_database\obj\Debug\net9.0\music_database.GeneratedMSBuildEditorConfig.editorconfig
+E:\da\music database\music_database\obj\Debug\net9.0\music_database.AssemblyInfoInputs.cache
+E:\da\music database\music_database\obj\Debug\net9.0\music_database.AssemblyInfo.cs
+E:\da\music database\music_database\obj\Debug\net9.0\music_database.csproj.CoreCompileInputs.cache
+E:\da\music database\music_database\obj\Debug\net9.0\music_database.dll
+E:\da\music database\music_database\obj\Debug\net9.0\refint\music_database.dll
+E:\da\music database\music_database\obj\Debug\net9.0\music_database.pdb
+E:\da\music database\music_database\obj\Debug\net9.0\music_database.genruntimeconfig.cache
+E:\da\music database\music_database\obj\Debug\net9.0\ref\music_database.dll
