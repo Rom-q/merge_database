@@ -279,6 +279,7 @@ class Value
         catch (Exception ex)
         {
             Console.WriteLine($"Ошибка: {ex.Message}");
+            Console.ReadLine();
         }
     }
 }
