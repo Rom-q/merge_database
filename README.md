@@ -7,7 +7,9 @@
 3. **Count the number of files** in any directory recursively.
 
 To get started, download the [latest release](https://github.com/Rom-q/merge_database/releases/tag/v1.0).
+
 [code](https://github.com/Rom-q/merge_database/blob/main/music_database/Program.cs)
+
 ---
 
 ## Conditions
