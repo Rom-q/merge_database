@@ -43,7 +43,7 @@
             merge_button.Name = "merge_button";
             merge_button.Size = new Size(125, 37);
             merge_button.TabIndex = 0;
-            merge_button.Text = "Слить базы";
+            merge_button.Text = "Соединить базы";
             merge_button.UseVisualStyleBackColor = true;
             merge_button.Click += merge_button_Click;
             // 
@@ -54,7 +54,7 @@
             gen_button.Name = "gen_button";
             gen_button.Size = new Size(125, 37);
             gen_button.TabIndex = 1;
-            gen_button.Text = "Сгенерировать тестовые базы";
+            gen_button.Text = "Создать тестовые базы";
             gen_button.UseVisualStyleBackColor = true;
             gen_button.Click += gen_button_Click;
             // 
@@ -107,7 +107,9 @@
             Controls.Add(gen_button);
             Controls.Add(merge_button);
             Font = new Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Margin = new Padding(1, 2, 1, 2);
+            MaximizeBox = false;
             Name = "Form1";
             Text = "Соединитель баз";
             ResumeLayout(false);

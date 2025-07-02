@@ -136,6 +136,7 @@
             Controls.Add(newpath);
             Controls.Add(newpathbutton);
             Margin = new Padding(4, 3, 4, 3);
+            MaximizeBox = false;
             Name = "MergeForm";
             Text = "Меню обьединеения";
             ResumeLayout(false);
