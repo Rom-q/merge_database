@@ -47,7 +47,7 @@ class MusicMerger
             Console.WriteLine("Не правильное значение");
             return;
         }
-            Console.Write("Введите путь к новой музыкальной базе: ");
+        Console.Write("Введите путь к новой музыкальной базе: ");
         string newBase = Console.ReadLine().Trim('"');
 
         Console.Write("Введите путь к старой музыкальной базе: ");
@@ -122,10 +122,9 @@ class MusicMerger
         }
 
         var mergedFileIds = new HashSet<string>(
-    Directory.GetFiles(mergedBase, "*.*", SearchOption.AllDirectories)
-    .Select(f => ExtractTrackId(f))
-    .Where(id => id != null)
-);
+        Directory.GetFiles(mergedBase, "*.*", SearchOption.AllDirectories)
+        .Select(f => ExtractTrackId(f))
+        .Where(id => id != null));
         foreach (var newFile in newFiles)
         {
             string id = ExtractTrackId(newFile);
