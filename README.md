@@ -6,9 +6,11 @@
 2. **Generate a large test database** that fits all expected conditions.
 3. **Count the number of files** in any directory recursively.
 
-To get started, download the [latest release](https://github.com/Rom-q/merge_database/releases/tag/v1.0).
+To get started, download the [latest release](https://github.com/Rom-q/merge_database/releases/tag/v1.1).
 
 [code](https://github.com/Rom-q/merge_database/blob/main/music_database/Program.cs)
+
+also Forms version [here](https://github.com/Rom-q/merge_database/tree/main/forms_vers/test9.0)
 
 ---
 
