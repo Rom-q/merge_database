@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "E:\\da\\music database\\forms_vers\\test9.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|e:\\da\\music database\\forms_vers\\test9.0\\test9.0\\mergeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|solutionrelative:test9.0\\mergeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|e:\\da\\music database\\forms_vers\\test9.0\\test9.0\\test9.0.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|solutionrelative:test9.0\\test9.0.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|E:\\da\\music database\\forms_vers\\test9.0\\test9.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|solutionrelative:test9.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|e:\\da\\music database\\forms_vers\\test9.0\\test9.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|solutionrelative:test9.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|e:\\da\\music database\\forms_vers\\test9.0\\test9.0\\mergeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|solutionrelative:test9.0\\mergeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|e:\\da\\music database\\forms_vers\\test9.0\\test9.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|solutionrelative:test9.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|e:\\da\\music database\\forms_vers\\test9.0\\test9.0\\mergeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|solutionrelative:test9.0\\mergeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|E:\\da\\music database\\forms_vers\\test9.0\\test9.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49951F5C-1113-4898-9D9B-467533D4AB50}|test9.0\\test9.0.csproj|solutionrelative:test9.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test9.0",
+              "DocumentMoniker": "E:\\da\\music database\\forms_vers\\test9.0\\test9.0\\test9.0.csproj",
+              "RelativeDocumentMoniker": "test9.0\\test9.0.csproj",
+              "ToolTip": "E:\\da\\music database\\forms_vers\\test9.0\\test9.0\\test9.0.csproj",
+              "RelativeToolTip": "test9.0\\test9.0.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-04T15:18:57.22Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -36,27 +52,27 @@
               "RelativeDocumentMoniker": "test9.0\\MergeForm.cs",
               "ToolTip": "E:\\da\\music database\\forms_vers\\test9.0\\test9.0\\MergeForm.cs",
               "RelativeToolTip": "test9.0\\MergeForm.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAlwEcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAEwIoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T08:32:04.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\da\\music database\\forms_vers\\test9.0\\test9.0\\Form1.cs",
               "RelativeDocumentMoniker": "test9.0\\Form1.cs",
               "ToolTip": "E:\\da\\music database\\forms_vers\\test9.0\\test9.0\\Form1.cs",
               "RelativeToolTip": "test9.0\\Form1.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAgwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwFQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T08:32:29.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MergeForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "E:\\da\\music database\\forms_vers\\test9.0\\test9.0\\MergeForm.cs",
               "RelativeDocumentMoniker": "test9.0\\MergeForm.cs",
@@ -68,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "E:\\da\\music database\\forms_vers\\test9.0\\test9.0\\Form1.cs",
               "RelativeDocumentMoniker": "test9.0\\Form1.cs",
