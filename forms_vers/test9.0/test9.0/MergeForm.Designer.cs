@@ -38,6 +38,7 @@
             buttonmerge = new Button();
             progressBar1 = new ProgressBar();
             exit_butt = new Button();
+            buttoncancel = new Button();
             SuspendLayout();
             // 
             // newpathbutton
@@ -56,7 +57,7 @@
             newpath.Name = "newpath";
             newpath.Size = new Size(166, 23);
             newpath.TabIndex = 1;
-            newpath.Text = "путь к новой базе";
+            newpath.Text = "путь к первой базе (master)";
             // 
             // oldpath
             // 
@@ -64,7 +65,7 @@
             oldpath.Name = "oldpath";
             oldpath.Size = new Size(166, 23);
             oldpath.TabIndex = 3;
-            oldpath.Text = "путь к старой базе";
+            oldpath.Text = "путь к второй базе (slave)";
             // 
             // oldpathbutton
             // 
@@ -121,11 +122,24 @@
             exit_butt.UseVisualStyleBackColor = true;
             exit_butt.Click += exit_butt_Click;
             // 
+            // buttoncancel
+            // 
+            buttoncancel.Enabled = false;
+            buttoncancel.Location = new Point(230, 12);
+            buttoncancel.Name = "buttoncancel";
+            buttoncancel.Size = new Size(97, 81);
+            buttoncancel.TabIndex = 9;
+            buttoncancel.Text = "ОТМЕНА";
+            buttoncancel.UseVisualStyleBackColor = true;
+            buttoncancel.Visible = false;
+            buttoncancel.Click += buttoncancel_Click_1;
+            // 
             // MergeForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(355, 166);
+            Controls.Add(buttoncancel);
             Controls.Add(exit_butt);
             Controls.Add(progressBar1);
             Controls.Add(buttonmerge);
@@ -135,6 +149,7 @@
             Controls.Add(oldpathbutton);
             Controls.Add(newpath);
             Controls.Add(newpathbutton);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Margin = new Padding(4, 3, 4, 3);
             MaximizeBox = false;
             Name = "MergeForm";
@@ -156,5 +171,6 @@
         private Button buttonmerge;
         public ProgressBar progressBar1;
         private Button exit_butt;
+        private Button buttoncancel;
     }
 }

@@ -53,12 +53,18 @@ namespace database_form_ver
         {
 
         }
+
+        private void Settings_button_Click(object sender, EventArgs e)
+        {
+            var settingsform = new SettingsForm();
+            settingsform.Show();
+        }
     }
 }
 class MusicTestBaseGenerator
 {
-    static readonly string[] Formats = { ".wav", ".flac", ".alac", ".aac", ".ogg", ".mp3" };
-    static readonly string[] Genres = {
+    static string[] SupportedFormats = { ".wav", ".flac", ".alac", ".aac", ".ogg", ".mp3" };
+    static string[] Genres = {
         "Эпическая музыка",
         "Медитативная",
         "Напряжённая",
@@ -87,7 +93,7 @@ class MusicTestBaseGenerator
         Process.Start("explorer.exe", basePath);
     }
 
-    static void GenerateBase(string baseDir, List<string> ids, int minFiles, int maxFiles, bool allowExtraFolders = false)
+    static void GenerateBase(string baseDir, List<string> ids, int minFiles, int maxFiles, bool allowExtraFolders)
     {
         var allGenres = new List<string>(Genres);
 
@@ -118,7 +124,7 @@ class MusicTestBaseGenerator
                 for (int i = 0; i < fileCount; i++)
                 {
                     string id = ids[rand.Next(ids.Count)];
-                    string ext = Formats[rand.Next(Formats.Length)];
+                    string ext = SupportedFormats[rand.Next(SupportedFormats.Length)];
                     string filePath = Path.Combine(dir, id + ext);
 
                     File.WriteAllBytes(filePath, new byte[] { 0x52, 0x49, 0x46, 0x46 });
@@ -143,7 +149,7 @@ class Value
             {
                 string file = files[i];
             }
-            MessageBox.Show($"Всего файлов в папке:\n{total}");
+            MessageBox.Show($"Всего файлов в папке:" + Environment.NewLine + total);
         }
         catch (Exception ex)
         {

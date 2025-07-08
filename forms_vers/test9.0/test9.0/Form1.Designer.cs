@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             merge_button = new Button();
             gen_button = new Button();
             search_button = new Button();
             exit_button = new Button();
             first_label = new Label();
             folderBrowserDialog1 = new FolderBrowserDialog();
+            Settings_button = new Button();
             SuspendLayout();
             // 
             // merge_button
@@ -96,11 +98,23 @@
             // 
             folderBrowserDialog1.HelpRequest += folderBrowserDialog1_HelpRequest;
             // 
+            // Settings_button
+            // 
+            Settings_button.BackgroundImage = (Image)resources.GetObject("Settings_button.BackgroundImage");
+            Settings_button.BackgroundImageLayout = ImageLayout.Zoom;
+            Settings_button.Location = new Point(260, 198);
+            Settings_button.Name = "Settings_button";
+            Settings_button.Size = new Size(29, 29);
+            Settings_button.TabIndex = 5;
+            Settings_button.UseVisualStyleBackColor = true;
+            Settings_button.Click += Settings_button_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(301, 229);
+            Controls.Add(Settings_button);
             Controls.Add(first_label);
             Controls.Add(exit_button);
             Controls.Add(search_button);
@@ -125,6 +139,7 @@
         private System.Windows.Forms.Button exit_button;
         private System.Windows.Forms.Label first_label;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private Button Settings_button;
     }
 }
 

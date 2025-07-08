@@ -17,3 +17,4 @@ E:\da\music database\forms_vers\test9.0\test9.0\obj\x64\Debug\net9.0-windows7.0\
 E:\da\music database\forms_vers\test9.0\test9.0\obj\x64\Debug\net9.0-windows7.0\test9.0.pdb
 E:\da\music database\forms_vers\test9.0\test9.0\obj\x64\Debug\net9.0-windows7.0\test9.0.genruntimeconfig.cache
 E:\da\music database\forms_vers\test9.0\test9.0\obj\x64\Debug\net9.0-windows7.0\ref\test9.0.dll
+E:\da\music database\forms_vers\test9.0\test9.0\obj\x64\Debug\net9.0-windows7.0\database_form_ver.SettingsForm.resources
