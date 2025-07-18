@@ -49,6 +49,7 @@ After the merging process, log files are saved in the `logs` folder:
 ## Getting Started
 
 Download the latest version from the [Releases page](https://github.com/Rom-q/merge_database/releases/tag/v1.4)
+
 Now stable version is x86 Windows 7+
 
 - Command-line version: [`Program.cs`](https://github.com/Rom-q/merge_database/blob/main/music_database/Program.cs) **(OUTDATED)**
