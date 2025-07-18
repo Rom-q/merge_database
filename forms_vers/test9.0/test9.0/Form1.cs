@@ -144,16 +144,35 @@ class Value
         try
         {
             string[] files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
+            long totalSize = 0;
             int total = files.Length;
-            for (int i = 0; i < total; i++)
+
+            foreach (string file in files)
             {
-                string file = files[i];
+                FileInfo info = new FileInfo(file);
+                totalSize += info.Length;
             }
-            MessageBox.Show($"Всего файлов в папке:" + Environment.NewLine + total);
+            string formattedSize = FormatSize(totalSize);
+
+            MessageBox.Show("Всего файлов в папке: " + total + Environment.NewLine + "Общий размер папки: " + formattedSize);
         }
         catch (Exception ex)
         {
             MessageBox.Show("Ошибка: " + ex.Message);
         }
+    }
+    private static string FormatSize(long bytes)
+    {
+        string[] sizes = { "Б", "КБ", "МБ", "ГБ", "ТБ" };
+        double len = bytes;
+        int order = 0;
+
+        while (len >= 1024 && order < sizes.Length - 1)
+        {
+            order++;
+            len /= 1024;
+        }
+
+        return $"{len:0.##} {sizes[order]}";
     }
 }

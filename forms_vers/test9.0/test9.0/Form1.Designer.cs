@@ -122,6 +122,7 @@
             Controls.Add(merge_button);
             Font = new Font("Segoe UI", 8F, FontStyle.Bold, GraphicsUnit.Point, 204);
             FormBorderStyle = FormBorderStyle.Fixed3D;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(1, 2, 1, 2);
             MaximizeBox = false;
             Name = "Form1";

@@ -22,6 +22,7 @@ namespace database_form_ver
                 cb.DropDownStyle = ComboBoxStyle.DropDown;
                 cb.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
                 cb.AutoCompleteSource = AutoCompleteSource.ListItems;
+                cb.Items.Clear();
                 cb.Items.AddRange(AppSettings.SupportedFormats1);
             }
             var formats = AppSettings.SupportedFormats;

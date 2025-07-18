@@ -30,7 +30,7 @@ namespace database_form_ver
         static public bool allowExtraFoldersNew = false;
         static public bool allowExtraFoldersOld = true;
         public static String[] SupportedFormats = { ".wav", ".flac", ".alac", ".aac", ".ogg", ".mp3" };
-        public static String[] SupportedFormats1 = { ".wav", ".flac", ".alac", ".aac", ".ogg", ".mp3", ".mkv", ".mp4", ".avi", ".ts", "none"};
+        public static String[] SupportedFormats1 = { ".wav", ".flac", ".alac", ".aac", ".ogg", ".mp3", ".mkv", ".mp4", ".avi", ".ts", "none", "Введите свой"};
         public static bool EnableIdCheck = true;
         public static bool EnableExtensionCheck = true;
         public static bool EnableDuplicateCheck = true;

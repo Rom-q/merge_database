@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MergeForm));
             folderBrowserDialog1 = new FolderBrowserDialog();
             newpathbutton = new Button();
             newpath = new TextBox();
@@ -150,6 +151,7 @@
             Controls.Add(newpath);
             Controls.Add(newpathbutton);
             FormBorderStyle = FormBorderStyle.Fixed3D;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4, 3, 4, 3);
             MaximizeBox = false;
             Name = "MergeForm";
